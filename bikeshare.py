@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from sys import exit
 
+#Get Data From User
 def get_filters():
         print('Hello! Let\'s explore some US bikeshare data!\n Select a number from from 1-3 to select the city\n1 - Chicago\n2 - New york city\n3 - Washington\n4 - To Exit')
         print('-'*40)
